@@ -1,0 +1,15 @@
+current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/Users/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180725-12737-jd4gqg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20180725-12737-agrggy/bindex
