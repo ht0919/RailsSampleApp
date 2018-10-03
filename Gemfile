@@ -50,4 +50,5 @@ end
 gem 'devise'
 gem 'sidekiq'
 gem 'sinatra'
+gem 'paperclip', '~> 5.0.0'
 
