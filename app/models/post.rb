@@ -10,5 +10,5 @@
 #
 
 class Post < ApplicationRecord
-  belong_to :user, inverse_of: :posts
+  belongs_to :user, inverse_of: :posts
 end
