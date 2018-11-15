@@ -1,5 +1,5 @@
 current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/mysql2-0.4.10/ext/mysql2
-/Users/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180725-12737-s5zwrp.rb extconf.rb
+/Users/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-945-1kbk6hb.rb extconf.rb
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for ruby/thread.h... yes
@@ -10,7 +10,7 @@ checking for rb_hash_dup()... yes
 checking for rb_intern3()... yes
 checking for rb_big_cmp()... yes
 -----
-Using mysql_config at /usr/local/bin/mysql_config
+Using mysql_config at /usr/local/opt/mysql@5.7/bin/mysql_config
 -----
 checking for mysql.h... yes
 checking for errmsg.h... yes
@@ -23,7 +23,7 @@ checking for MYSQL.net.vio in mysql.h... yes
 checking for MYSQL.net.pvio in mysql.h... no
 checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... yes
 -----
-Setting rpath to /usr/local/Cellar/mysql/5.7.22/lib
+Setting rpath to /usr/local/opt/mysql@5.7/lib
 -----
 creating Makefile
 
@@ -48,4 +48,4 @@ linking shared-object mysql2/mysql2.bundle
 
 current directory: /Users/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/mysql2-0.4.10/ext/mysql2
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20180725-12737-umzhb9/mysql2
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20181115-945-lvr8wl/mysql2
