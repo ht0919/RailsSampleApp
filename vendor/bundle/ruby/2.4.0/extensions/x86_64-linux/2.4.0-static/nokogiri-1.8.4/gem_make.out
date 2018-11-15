@@ -1,5 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.8.4/ext/nokogiri
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180802-31383-1atjf1t.rb extconf.rb
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-1yf2or3.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.3.0
@@ -118,4 +118,4 @@ rm -rf /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/noko
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.8.4/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20180802-31383-1rkqe4q/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20181115-1008-19otud7/nokogiri

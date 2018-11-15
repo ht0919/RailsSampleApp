@@ -1,5 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180802-31383-1ussq5x.rb extconf.rb
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-121447i.rb extconf.rb
 creating Makefile
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
@@ -12,4 +12,4 @@ linking shared-object bindex/cruby.so
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cruby.so ./.gem.20180802-31383-t5tvy9/bindex
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20181115-1008-1hk0fp1/bindex

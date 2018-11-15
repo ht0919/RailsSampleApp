@@ -1,6 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.0/ext/mini_racer_extension
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180802-31383-1wxsylt.rb extconf.rb
-Ignoring jaro_winkler-1.5.1-x86_64-darwin-17 because its extensions are not built.  Try: gem pristine jaro_winkler --version 1.5.1
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-17qnan1.rb extconf.rb
 checking for -lpthread... yes
 creating Makefile
 
@@ -19,4 +18,4 @@ linking shared-object mini_racer_extension.so
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.0/ext/mini_racer_extension
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mini_racer_extension.so ./.gem.20180802-31383-t7fyeo
+/usr/bin/install -c -m 0755 mini_racer_extension.so ./.gem.20181115-1008-1o1eqzh

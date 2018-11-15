@@ -1,5 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/ffi-1.9.25/ext/ffi_c
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180802-31383-slts9o.rb extconf.rb
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-1aa5sib.rb extconf.rb
 /home/ht0919/.rbenv/versions/2.4.1/lib/ruby/2.4.0/mkmf.rb:1551: warning: Insecure world writable dir /mnt/c in PATH, mode 040777
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
@@ -158,4 +158,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20180802-31383-ljebfm
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20181115-1008-1dttw9u

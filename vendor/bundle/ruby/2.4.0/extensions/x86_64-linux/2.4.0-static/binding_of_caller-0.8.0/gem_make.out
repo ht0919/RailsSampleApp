@@ -1,5 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180802-31383-2liouu.rb extconf.rb
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-1in0lk8.rb extconf.rb
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
 make "DESTDIR=" clean

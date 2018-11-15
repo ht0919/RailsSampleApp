@@ -121,7 +121,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/home/ht0919/.rbenv/versions/2.4.1/include/ruby-2.4.0/x86_64-linux -I/home/ht0919/.rbenv/versions/2.4.1/include/ruby-2.4.0/ruby/backward -I/home/ht0919/.rbenv/versions/2.4.1/include/ruby-2.4.0 -I. -I/home/ht0919/.rbenv/versions/2.4.1/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wno-maybe-uninitialized conftest.c  -L. -L/home/ht0919/.rbenv/versions/2.4.1/lib -Wl,-R/home/ht0919/.rbenv/versions/2.4.1/lib -L. -L/home/ht0919/.rbenv/versions/2.4.1/lib  -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/ht0919/.rbenv/versions/2.4.1/lib -L/home/ht0919/.rbenv/versions/2.4.1/lib -lruby-static  -lpthread -ldl -lcrypt -lm   -lc"
-/tmp/cciUuatD.o: In function `t':
+/tmp/ccu4Dznp.o: In function `t':
 /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/mysql2-0.4.10/ext/mysql2/conftest.c:14: undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:

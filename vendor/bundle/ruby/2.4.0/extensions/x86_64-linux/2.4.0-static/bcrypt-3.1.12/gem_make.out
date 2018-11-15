@@ -1,5 +1,5 @@
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext/mri
-/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180822-1361-1axjtkt.rb extconf.rb
+/home/ht0919/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20181115-1008-1c9ijtm.rb extconf.rb
 creating Makefile
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext/mri
@@ -16,4 +16,4 @@ linking shared-object bcrypt_ext.so
 
 current directory: /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20180822-1361-1el8nm2
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181115-1008-97mdb9

@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20180802-31383-t7fyeo
-sitelibdir = $(DESTDIR)./.gem.20180802-31383-t7fyeo
+sitearchdir = $(DESTDIR)./.gem.20181115-1008-1o1eqzh
+sitelibdir = $(DESTDIR)./.gem.20181115-1008-1o1eqzh
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -82,11 +82,11 @@ debugflags = -ggdb3
 warnflags = -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings   -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wno-maybe-uninitialized
 CCDLFLAGS = -fPIC
 CFLAGS   = $(CCDLFLAGS) $(cflags) $(ARCH_FLAG)
-INCFLAGS = -I. -I/home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/libv8-6.7.288.46.1-x86_64-darwin-17/vendor/v8/include -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
+INCFLAGS = -I. -I/home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/libv8-6.7.288.46.1-x86_64-linux/vendor/v8/include -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
 CPPFLAGS =  -I/home/ht0919/.rbenv/versions/2.4.1/include  $(DEFS) $(cppflags) -Wall -g -rdynamic -std=c++0x -fpermissive
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
-ldflags  = /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/libv8-6.7.288.46.1-x86_64-darwin-17/vendor/v8/out.gn/libv8/obj/libv8_monolith.a -L. -L/home/ht0919/.rbenv/versions/2.4.1/lib  -fstack-protector -rdynamic -Wl,-export-dynamic
+ldflags  = /home/ht0919/hum/rails5/RailsSampleApp/vendor/bundle/ruby/2.4.0/gems/libv8-6.7.288.46.1-x86_64-linux/vendor/v8/out.gn/libv8/obj/libv8_monolith.a -L. -L/home/ht0919/.rbenv/versions/2.4.1/lib  -fstack-protector -rdynamic -Wl,-export-dynamic
 dldflags = -L/home/ht0919/.rbenv/versions/2.4.1/lib  -Wl,--compress-debug-sections=zlib 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
